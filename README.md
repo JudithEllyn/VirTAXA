@@ -39,7 +39,7 @@ VirTAXA is a robust tool to conduct taxonomic classification of RNA viruses. To 
 
 
 ## Notice
-- If you want to use PhaGCN, you need to take care of these things:
+- If you want to use VirTAXA, you need to take care of these things:
 1. Make sure all your contigs are virus contigs, or they can create erroneous results.
 2. When you use your own query data, test.fasta and test.faa are both required and make sure they have the same prefix.
 
