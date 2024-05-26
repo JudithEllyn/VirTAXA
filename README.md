@@ -13,7 +13,7 @@ VirTAXA is a robust tool to conduct taxonomic classification of RNA viruses. To 
   conda activate virtaxa
   ```
   
-  - Noting that sometimes you need to install [TreeShrink](https://github.com/uym2/TreeShrink) manually to to make sure it works (use `run_treeshrink.py -h` to test).
+  - Noting that sometimes you need to install [TreeShrink](https://github.com/uym2/TreeShrink) manually to make sure it works (use `run_treeshrink.py -h` to test).
 - If you do not want to use the .yaml, you can also install the requirements below independently by yourself.
 
 ## Requirements
@@ -40,6 +40,7 @@ VirTAXA is a robust tool to conduct taxonomic classification of RNA viruses. To 
 - There are 3 parameters for the program: 1. --query/-q protein file of the query sequences. 2. --db/-d the database (default db_vir which we build) 3. --output/-o the folder saving the prediction results.
   <br/>
 - Here we present an example to show how to run VirTAXA. We provide a testing file named “vir_test.fasta" and its corresponding protein file "vir_test.faa" in the Github folder. The only command that you need to run is as below. However, before using the database, do not forget to download the db_vir as the database and unzip the **hmm_train.hmm** and **train.fasta** files.
+
   ```python Virtaxa.py --db db_vir --query vir_test.faa --output $output_folder$ ```
   <br/>
 - The output file is **final_result.csv** in the result folder. There are three column in this csv file: "Accession, pred_genus, step". The “Steps” column provides the user with the steps leading to this prediction so that the user can decide whether to use all or part of the prediction results. **final_result_family.csv**  and **new_cluster.json** are provided as the family prediction and the putative new cluster.
