@@ -6,10 +6,10 @@ VirTAXA is a robust tool to conduct taxonomic classification of RNA viruses. To 
 
 - We recommend you to install all the package with Anaconda
   
-  - After downloading this respository, you can use anaconda to install the environment.yaml. This will install all packages you need.
+  - After downloading this respository, you can use anaconda to install the virtaxa.yaml. This will install all packages you need.
   
   ```
-  conda env create -f environment.yaml -n virtaxa
+  conda env create -f virtaxa.yaml -n virtaxa
   conda activate virtaxa
   ```
   
