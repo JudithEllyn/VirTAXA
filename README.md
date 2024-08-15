@@ -38,7 +38,7 @@ VirTAXA is a robust tool to conduct taxonomic classification of RNA viruses. To 
 
 - There are 3 required parameters for the program: 1. --query/-q protein file of the query sequences. 2. --db/-d the database (default **db_vir**  we build) 3. --output/-o the folder saving the prediction results.
   <br/>
-- Here we present an example to show how to run VirTAXA. We provide a test file named “vir_test.fasta" and its corresponding protein file "vir_test.faa" in the Github folder. The only command that you need to run is as below. However, before using the database, do not forget to download the db_vir as the database and unzip the **hmm_train.hmm** and **train_fasta.csv** files.
+- Here we present an example to show how to run VirTAXA. We provide a test file named “vir_test.fasta" and its corresponding protein file "vir_test.faa" in the Github folder. The only command that you need to run is as below. However, before using the database, do not forget to download the db_vir as the database and unzip the **hmm_train.hmm** and **train.csv** files.
   
   ```python Virtaxa.py --db db_vir --query vir_test.faa --output $output_folder$ ```
   <br/>
